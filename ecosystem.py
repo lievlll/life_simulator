@@ -42,4 +42,4 @@ class Ecosystem:
 
     def is_over(self) -> bool:
         return self.rabbits.count() == 0 or self.foxes.count() == 0
-#todo размножение
+#upd размножение
