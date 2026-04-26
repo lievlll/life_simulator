@@ -1,3 +1,4 @@
+import random
 class Organism:
     def __init__(self, name: str, energy: float):
         self.name = name
@@ -23,7 +24,6 @@ class Fox(Organism):
         super().__init__("Лиса", energy=30.0)
 
     def hunt(self, rabbit: Rabbit) -> bool:
-        import random
         if random.random() < 0.5:
             self.energy += 15.0
             rabbit.energy = 0
