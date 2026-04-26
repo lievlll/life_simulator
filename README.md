@@ -12,6 +12,3 @@
 - ecosystem.py
 - main.py
 
-## Запуск
-```bash
-python main.py
