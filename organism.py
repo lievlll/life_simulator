@@ -30,4 +30,4 @@ class Fox(Organism):
             return True
         return False
 
-#todo: сделать размножение организмов
+#upd: сделать размножение организмов
