@@ -1,3 +1,4 @@
+import random
 from organism import Organism, Rabbit, Fox
 class Population:
     def __init__(self, species_class):
@@ -34,7 +35,6 @@ class Ecosystem:
             fox.lose_energy(5.0)
             alive_rabbits = self.rabbits.alive()
             if alive_rabbits:
-                import random
                 target = random.choice(alive_rabbits)
                 fox.hunt(target)
         if self.rabbits.count() < 3:
