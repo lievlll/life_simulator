@@ -29,3 +29,5 @@ class Fox(Organism):
             rabbit.energy = 0
             return True
         return False
+
+#upd: сделать размножение организмов
