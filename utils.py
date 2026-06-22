@@ -10,4 +10,4 @@ def print_result(ecosystem):
     elif ecosystem.foxes.count() == 0:
         print("Все лисы вымерли. Зайцы выжили!")
     print(f"Длилось дней: {ecosystem.day}")
-#todo: записывать события популяций
+#todo: записывать события симуляции
